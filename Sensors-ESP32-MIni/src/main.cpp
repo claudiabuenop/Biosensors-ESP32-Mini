@@ -78,9 +78,9 @@ void ECG() {
 // Function to read Oximeter sensor
 void readOximeter() {
   // Read the Oximeter sensor and send the data to serial monitor
-  bufferLength = 100; //buffer length of 100 stores 4 seconds of samples running at 25sps
+  bufferLength = 100; // Buffer length of 100 stores 4 seconds of samples running at 25sps
 
-  //read the first 100 samples, and determine the signal range
+  // Read the first 100 samples, and determine the signal range
   for (byte i = 0 ; i < bufferLength ; i++)
   {
     while (particleSensor.available() == false) //do we have new data?
@@ -96,7 +96,7 @@ void readOximeter() {
     Serial.println(irBuffer[i], DEC);
   }
 
-  //calculate heart rate and SpO2 after first 100 samples (first 4 seconds of samples)
+  // Calculate heart rate and SpO2 after first 100 samples (first 4 seconds of samples)
   maxim_heart_rate_and_oxygen_saturation(irBuffer, bufferLength, redBuffer, &spo2, &validSPO2, &heartRate, &validHeartRate);
 
   //Continuously taking samples from MAX30102.  Heart rate and SpO2 are calculated every 1 second
@@ -171,7 +171,7 @@ void setup() {
   Serial.println("BMP280 Sensor OK");
 
   // Setup for EGC sensor
-  analogReadResolution(12); // Establece la resolución a 12 bits
+  analogReadResolution(12); // 12 bits resolution
   adcAttachPin(ADC1_CHANNEL_7); // Pin 7 associated with ADC1
 
   // Setup for Oximeter sensor
@@ -217,6 +217,7 @@ void loop() {
     }
   }
 }
+
 
 
 
