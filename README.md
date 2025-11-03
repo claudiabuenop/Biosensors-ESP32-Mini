@@ -10,7 +10,9 @@ BMP280 -> room temperature, altitude and pressure sensor.
 SEN0213 (DFRobot ECG Sensor) -> Electrocardiogram
 
 # Results 
+
 Room Temperature 
+
 <img width="687" height="621" alt="Screenshot 2025-11-03 at 18 36 56" src="https://github.com/user-attachments/assets/78a3b42c-45a0-4625-bf0b-31c73d85b035" />
 
 Sp02 and Heart rate (This sensor is not very accurate due to the finder moving while measuring)
