@@ -11,9 +11,7 @@ SEN0213 (DFRobot ECG Sensor) -> Electrocardiogram
 
 # MCU and sensors
 
-![4D8A2FA4-9F51-43E8-98EE-6E92AFBCA37E](https://github.com/user-attachments/assets/0deaddda-4426-4364-8848-685ba7b51854)
-
-
+<img width="402" height="573" alt="Screenshot 2025-11-03 at 18 44 37" src="https://github.com/user-attachments/assets/85b9ee0a-959b-450b-a659-3cb8b23fe6c1" />
 
 # Results 
 
