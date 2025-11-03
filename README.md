@@ -4,6 +4,8 @@ Wearable health-monitoring system built using ESP32-S2-Mini microcontroller. Thi
 Sensors:
 
 MAX30105 -> heart rate and SpO2 
+
 BMP280 -> room temperature sensor
+
 SEN0213 (DFRobot ECG Sensor) -> Electrocardiogram
 
