@@ -9,6 +9,12 @@ BMP280 -> room temperature, altitude and pressure sensor.
 
 SEN0213 (DFRobot ECG Sensor) -> Electrocardiogram
 
+# MCU and sensors
+
+![4D8A2FA4-9F51-43E8-98EE-6E92AFBCA37E](https://github.com/user-attachments/assets/0deaddda-4426-4364-8848-685ba7b51854)
+
+
+
 # Results 
 
 Room Temperature 
